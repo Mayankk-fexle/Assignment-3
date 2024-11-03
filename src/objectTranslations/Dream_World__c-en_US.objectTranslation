@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dream World</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dream Worlds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dream World Title --></label>
+        <name>Dream_World_Title__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
