@@ -6,5 +6,20 @@
         <members>Training_Session__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Attendee__c-Attendee Layout</members>
+        <members>Feedback__c-Feedback Layout</members>
+        <members>Training_Session__c-Training Attendees</members>
+        <members>Training_Session__c-Training Session Layout</members>
+        <members>Training_Session__c-Webinar Layout</members>
+        <members>Training_Session__c-Workshop Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Training_Session__c.Already_attended</members>
+        <members>Training_Session__c.Webinar</members>
+        <members>Training_Session__c.Workshop</members>
+        <name>RecordType</name>
+    </types>
     <version>60.0</version>
 </Package>
