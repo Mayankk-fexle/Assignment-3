@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>NewClass</members>
-        <members>sfdcTrainingClass</members>
-        <name>ApexClass</name>
+        <members>*</members>
+        <name>CompactLayout</name>
     </types>
     <types>
-        <members>ATF_Session</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>AishFirstObject__c.First_Field__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>ATS_Session__c</members>
-        <members>AishFirstObject__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>ATS_Session__c</members>
+        <members>ATF_Session_UtilityBar</members>
+        <members>FlowsApp_UtilityBar</members>
         <members>MyApp</members>
-        <name>CustomTab</name>
+        <members>New_Account_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
     </types>
     <version>60.0</version>
 </Package>
