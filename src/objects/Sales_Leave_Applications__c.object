@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>VL_Date_of_application</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISBLANK( Date_of_Application__c ),NOT( $Setup.Bypass_Logic__c.Bypass_Validation_Rules__c ))</errorConditionFormula>
+        <errorDisplayField>Date_of_Application__c</errorDisplayField>
+        <errorMessage>Date should be mentioned</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VL_Only_one_User_can_fill</fullName>
+        <active>true</active>
+        <description>Only Sales intern can populate thsi field</description>
+        <errorConditionFormula>NOT($User.Id  = &quot;005Qy000009loSQ&quot;)</errorConditionFormula>
+        <errorDisplayField>Reason__c</errorDisplayField>
+        <errorMessage>You can&apos;t populate this field</errorMessage>
+    </validationRules>
+</CustomObject>

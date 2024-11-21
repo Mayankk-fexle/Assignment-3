@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>Case_Status_Reopen</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+ NOT($Permission.Case_Bypass_Status) ,
+ TEXT(PRIORVALUE( Status )) = &quot;Closed&quot; 
+)</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>Case can&apos;t be reopened</errorMessage>
+    </validationRules>
+</CustomObject>

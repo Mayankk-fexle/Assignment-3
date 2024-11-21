@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>NewClass</members>
-        <members>sfdcTrainingClass</members>
-        <name>ApexClass</name>
+        <members>*</members>
+        <name>CustomMetadata</name>
     </types>
     <types>
-        <members>ATF_Session</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>AishFirstObject__c.First_Field__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>ATS_Session__c</members>
-        <members>AishFirstObject__c</members>
+        <members>API_Setting__mdt</members>
+        <members>Bypass_Logic__c</members>
+        <members>Lead</members>
+        <members>My_Bypass_logics__mdt</members>
+        <members>Offer__c</members>
+        <members>Opportunity</members>
+        <members>Project__c</members>
+        <members>User</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>ATS_Session__c</members>
-        <members>MyApp</members>
-        <name>CustomTab</name>
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Contact_with_Fuzzy_Logic</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <members>Training_Session__c.MR_No_Duplicate</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Bypass_Lead_Validation_Rules</members>
+        <members>Case_bypass_set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>For_Service_Team</members>
+        <members>RR_Feedback</members>
+        <members>RR_Training_Records</members>
+        <name>RestrictionRule</name>
+    </types>
+    <types>
+        <members>Account.Minimum_Spending_Validation</members>
+        <members>Account.Revenue_Validation</members>
+        <members>Attendee__c.Email_Format_check</members>
+        <members>Case.Case_Status_Reopen</members>
+        <members>Contact.Contact_must_be_in_Account_ZIP_Code</members>
+        <members>Lead.LEAD002_Product_Interest_Required</members>
+        <members>Sales_Leave_Applications__c.VL_Date_of_application</members>
+        <members>Sales_Leave_Applications__c.VL_Only_one_User_can_fill</members>
+        <name>ValidationRule</name>
     </types>
     <version>60.0</version>
 </Package>
